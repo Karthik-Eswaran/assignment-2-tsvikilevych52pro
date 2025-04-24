@@ -1,21 +1,34 @@
-import numpy as np
-
-def hello_world() -> str:
+def read_file(file_path: str) -> str:
     """
-    Implement a function that returns Hello World!
+    Reads the contents of a file and returns it as a string.
     """
     raise NotImplementedError()
 
 
-def add_two(number: int) -> int:
+def write_file(file_path: str, content: str) -> None:
     """
-    Adds two to `number`
+    Writes the given content to a file.
     """
     raise NotImplementedError()
 
 
-def zero_array(N: int) -> np.ndarray:
+def list_files_in_directory(directory_path: str) -> list:
     """
-    Returns a double type ndarray of length N filled with zeros 
+    Returns a list of files in the specified directory.
+    """
+    raise NotImplementedError()
+
+
+def generate_numbers(n: int) -> iter:
+    """
+    Generates a sequence of numbers from 0 to n-1 using an iterator.
+    """
+    raise NotImplementedError()
+
+
+def use_function_from_module(module_name: str, function_name: str, *args) -> any:
+    """
+    Demonstrates how to import a function from another script (module) and execute it.
+    The module name and function name are passed as strings, along with any arguments for the function.
     """
     raise NotImplementedError()
